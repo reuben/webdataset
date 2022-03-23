@@ -15,14 +15,14 @@ if sys.version_info < (3, 6):
 scripts = []
 
 setuptools.setup(
-    name='webdataset',
+    name="webdataset-py36",
     version="0.2.4",
     description="Record sequential storage for deep learning.",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
-    url="http://github.com/tmbdev/webdataset",
-    author="Thomas Breuel",
-    author_email="tmbdev+removeme@gmail.com",
+    url="http://github.com/reuben/webdataset",
+    author="Reuben Morais",
+    author_email="reuben@github.account",
     license="MIT",
     classifiers=[
         "Development Status :: 3 - Alpha",
